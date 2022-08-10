@@ -1,0 +1,241 @@
+.features {
+    padding: 50px;
+}
+
+.features .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.features h2 {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.titleborder {
+    width: 120px;
+    height: 1px;
+    border-top: 1px solid #979797;
+}
+
+.contaniner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contaniner>div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+@media(max-width:540px) {
+    .titleborder {
+        display: none;
+    }
+
+    .contaniner {
+        display: block
+    }
+
+    .contaniner>div {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+.chef {
+    background: #3D1101;
+    display: flex;
+    justify-content: center;
+    color: #EFE9E7;
+    margin-bottom: 50px;
+}
+
+.chef .img {
+    width: 470px;
+    height: 460px;
+    background: url(../assets/main_chef_brown.png) no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.intro {
+    width: 45%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h2 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.intro h3 {
+    margin-bottom: 16px;
+}
+
+@media(max-width:540px) {
+    .chef {
+        display: block;
+    }
+
+    .chef .img {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+}
+
+.evaluation h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.people table {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.people img {
+    border-radius: 50%;
+    margin-right: 13px;
+    max-width: 67px;
+}
+
+.people h3 {
+    font-size: 18px;
+}
+
+.people td {
+    vertical-align: middle;
+}
+
+.feeling {
+    padding-bottom: 16px;
+}
+
+.sign {
+    text-align: right;
+}
+
+@media(max-width:540px) {
+    .people {
+        display: block;
+    }
+
+    .people table {
+        width: 90%;
+    }
+}
+
+.booking {
+    background: rgba(250, 250, 250, 0.70);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.booking h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    width: 45%;
+    text-align: center;
+}
+
+.info .pure-form {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info .pure-form input {
+    margin-bottom: 12px;
+}
+
+.info .pure-form input[type=text],
+.info .pure-form input[type=tel],
+.info .pure-form input[type=email],
+.info .pure-form input[type=number] {
+    width: 100%;
+}
+
+.info .pure-form .pure-radio {
+    display: inline-block;
+    width: 50px;
+}
+
+.form_btn {
+    text-align: right;
+}
+
+.form_btn button {
+    width: 70px;
+    height: 32px;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+.btn-cancel {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.btn-send {
+    background: #F56C23;
+}
+
+.btn-cancel:active,
+.btn-send:active {
+    transform: translateY(2px);
+}
+
+@media(max-width:540px) {
+    .info {
+        display: block;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .info .pure-form {
+        width: 100%;
+    }
+}
